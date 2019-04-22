@@ -1,0 +1,27 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "Шаблон настройки webpack4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alert175/webpack-4-template.git"
+  },
+  "author": "Ilya Gusev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alert175/webpack-4-template/issues"
+  },
+  "homepage": "https://github.com/Alert175/webpack-4-template#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
